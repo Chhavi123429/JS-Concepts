@@ -19,3 +19,5 @@ console.log("Line 1\nLine 2");
 
 console.log(`Line 1
 Line 2`);
+
+//console.log returns undefined

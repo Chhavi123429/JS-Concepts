@@ -15,8 +15,10 @@ x=5
 var x;
 before declaration  accessing the variables gives "Reference Error" or "Temporal Dead Zone(TDZ)"
 
-Binds this
-var x=5
+*/
+
+//Binds this
+var x = 5;
 function test() {
   var a = 10;
   let b = 20;
@@ -25,13 +27,14 @@ function test() {
   console.log(this.b); // undefined
   console.log(this.c); // undefined
 }
-  test()
-  console.log(this.x)//5
+test();
+console.log(this.x); //5
 
-varibale names can only contain numbers,alphabets & _-(0-9,a-z,_)
-not start with number
-can start with underscore
-cannot have spaces in between
-variables names are case sensitive(age & AGE are different)
+// varibale names can only contain numbers,alphabets & _-(0-9,a-z,_)
+// not start with number
+// can start with underscore
+// cannot have spaces in between
+// variables names are case sensitive(age & AGE are different)
 
-  */
+// if you put decimal values in a variable, the type of variable becomes float.
+const pi = 3.14;
