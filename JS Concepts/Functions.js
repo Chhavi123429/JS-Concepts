@@ -1,3 +1,4 @@
+// function returns single value
 // arrow function
 const add = () => {
   console.log("asdf");
